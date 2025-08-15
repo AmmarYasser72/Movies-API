@@ -1,4 +1,4 @@
-# 🎬 React IMDb Clone
+# 🎬 Movie-Search-API
 
 **Author:** Ammar Yasser  
 
@@ -29,3 +29,6 @@ A fully responsive IMDb-style movie and TV show browsing application built with 
 - **TMDB API** — Movie & TV show data source  
 
 ---
+
+**Live Demo:** [Click here to try it](https://movies-api-mu-nine.vercel.app/)
+
