@@ -1,34 +1,47 @@
-# 🎬 Movie-Search-API
+# Movies API
 
-**Author:** Ammar Yasser  
+Movies API is a responsive movie and TV discovery application built with React and Vite. It uses The Movie Database (TMDB) API to search titles, browse popular content, and show detailed information about each result.
 
-A fully responsive IMDb-style movie and TV show browsing application built with **React.js** and **Vite**. This app uses **The Movie Database (TMDB) API** to fetch real-time data, allowing users to search, browse, and view detailed information about their favorite titles.
+Live demo: https://movies-api-mu-nine.vercel.app
 
----
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- TMDB API
 
-## 📌 Features
+## Features
+- Search movies and TV shows
+- Browse popular and trending titles
+- View details such as posters, ratings, release dates, and descriptions
+- Save favorites with localStorage
+- Dark mode support
+- Responsive layout across mobile and desktop
+- Loading and error states for API requests
 
-- 🔍 **Search Movies & TV Shows** — Find any title instantly using TMDB's database.  
-- 📃 **Detailed Pages** — View posters, release dates, ratings, and descriptions.  
-- 🖼 **Popular Titles** — Browse trending movies and TV shows.  
-- ♻ **Reusable Components** — SearchBar, MovieCard, and MovieList.  
-- 📱 **Responsive Design** — Works on mobile, tablet, and desktop.  
-- 🌙 **Dark Mode Support** — Switch between light and dark themes.  
-- ❤️ **Favorites List** — Save favorite movies using `localStorage`.  
-- ⏳ **Loading Spinner** — Better UX during API fetch requests.  
-- ⚠ **Error Handling** — Graceful fallback for failed requests.  
+## Getting Started
+### Prerequisites
+- Node.js 18+
+- npm
 
----
+### Installation
+`ash
+git clone https://github.com/AmmarYasser72/Movies-API.git
+cd Movies-API
+npm install
+`
 
-## 🛠 Tech Stack
+### Development
+`ash
+npm run dev
+`
 
-- **React.js** — UI library  
-- **Vite** — Fast development & build tool  
-- **tailwind CSS** — Utility-first responsive styling  
-- **React Router** — Navigation between pages  
-- **TMDB API** — Movie & TV show data source  
+### Build
+`ash
+npm run build
+npm run preview
+`
 
----
-
-**Live Demo:** [Click here to try it](https://movies-api-mu-nine.vercel.app/)
-
+## License
+MIT
